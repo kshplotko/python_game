@@ -1,0 +1,41 @@
+{
+	"obstacles": {
+		"0": "pygame_files/surface/PNG/Tiles/tile25.png",
+		"1": "pygame_files/surface/PNG/Tiles/tile26.png",
+		"2": "pygame_files/surface/PNG/Tiles/tile26_rev.png",
+		"3": "pygame_files/surface/PNG/Tiles/tile25_rev.png",
+		"7": "pygame_files/surface/PNG/Tiles/tile88.png",
+		"_": "pygame_files/surface/PNG/Tiles/tile32_rev.png",
+		"|": "pygame_files/surface/PNG/Tiles/tile90.png",
+		"T": "pygame_files/surface/PNG/Tiles/tile32.png"
+	},
+	"interact": {
+		"d": {
+			"w": 48,
+			"h": 48,
+			"sprite": "pygame_files/door_lock.png"
+		},
+		"D": {
+			"w": 48,
+			"h": 48,
+			"sprite": "pygame_files/door_open.png"
+		},
+		"k": {
+			"w": 26,
+			"h": 26,
+			"sprite": "pygame_files/key.png"
+		},
+		"W": {
+			"w": 44,
+			"h": 15,
+			"draw_at": "bottom",
+			"sprite": "pygame_files/surface/PNG/Tiles/tile110.png"
+		},
+		"s": {
+			"w": 26,
+			"h": 16,
+			"sprite": "pygame_files/surface/PNG/Objects/rocks2_2.png"
+		}
+	},
+	"player": "pygame_files/player/PNG/Player/Poses/player_stand_scaled.png"
+}

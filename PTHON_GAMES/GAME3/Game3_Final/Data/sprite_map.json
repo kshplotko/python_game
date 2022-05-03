@@ -1,0 +1,41 @@
+{
+	"obstacles": {
+		"0": "Sprites/Level/tile25.png",
+		"1": "Sprites/Level/tile26.png",
+		"2": "Sprites/Level/tile26_rev.png",
+		"3": "Sprites/Level/tile25_rev.png",
+		"4": "Sprites/Level/tile88.png",
+		"_": "Sprites/Level/tile32_rev.png",
+		"|": "Sprites/Level/tile90.png",
+		"T": "Sprites/Level/tile32.png"
+	},
+	"interact": {
+		"d": {
+			"w": 48,
+			"h": 48,
+			"sprite": "Sprites/door_lock.png"
+		},
+		"D": {
+			"w": 48,
+			"h": 48,
+			"sprite": "Sprites/door_open.png"
+		},
+		"k": {
+			"w": 26,
+			"h": 46,
+			"sprite": "Sprites/key2.png"
+		},
+		"W": {
+			"w": 44,
+			"h": 15,
+			"draw_at": "bottom",
+			"sprite": "Sprites/Level/ship.png"
+		},
+		"s": {
+			"w": 26,
+			"h": 16,
+			"sprite": "Sprites/ELXR.png"
+		}
+	},
+	"player": "Sprites/player.png"
+}
